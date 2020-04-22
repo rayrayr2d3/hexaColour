@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  .app_wrapper {
+    position: absolute;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+
+  }
+
+  .header {
+    font-family: "Garamond";
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .body {
+    font-family: "Ariel";
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+  }
+  
+.app_wrapper {
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+}
+
+.body {
+
+}
+
+.input {
 }
